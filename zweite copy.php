@@ -21,6 +21,7 @@ echo "<br>";
 $arr1=array_fill(1,1000,true);
 for ($p=2;$p<=Count($arr1);$p++){
   
+
 for (($t=$p);($t*$p)<=count($arr1);$t=$t*$p){
     $arr1[$t]=false; 
         
