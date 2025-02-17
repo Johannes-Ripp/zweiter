@@ -24,7 +24,8 @@ for ($p=2;$p<=Count($arr1);$p++){
 
 for (($t=$p);($t*$p)<=count($arr1);$t=$t*$p){
     $arr1[$t]=false; 
-        
+    
+    
     }
 }
 for ($z=2;$z<=Count($arr1);$z++){
