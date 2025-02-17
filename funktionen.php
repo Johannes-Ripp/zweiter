@@ -6,6 +6,7 @@ function myAbs($x,$y){
     $y=$y*$y;
     $y=sqrt($y);
     echo "$x "."und "." $y".".";
+    
 }
 
 myAbs(rand(-5,5),rand(-5,5));
